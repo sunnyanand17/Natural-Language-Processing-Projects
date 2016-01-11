@@ -1,0 +1,303 @@
+Sentence:Guadalupe Palacios, 81, and London Pena, 6, killed in wreck on Loop 280 near White Settlement Road in Fort Worth, Texas .
+SRL:Guadalupe Palacios, 81, and London Pena, 6,/Killer[A0] killed/V:Kill.01 in wreck/temporal [AM-TMP] on Loop 280 near White Settlement Road in Fort Worth, Texas/location [AM-LOC].
+Nom:Guadalupe Palacios, 81, and London Pena, 6, killed in wreck/Nom on Loop 280 near White Settlement Road in Fort Worth, Texas/theme [A1].
+
+Observation: SRL: Killer[A0]:Guadalupe Palacios, 81, and London Pena, 6  Predicate :Killed  Temporal[AM-TMP]: wreck Location[AM-LOC] :Loop 280 near White Settlement Road in Fort Worth, Texas
+Observation: Nom: Causal: wreck
+
+
+Sentence:Luis Aleman-Mendoza, 18, killed and two people injured in four-vehicle car wreck on Interstate 35E in Lewisville, Texas .
+SRL:Luis Aleman-Mendoza, 18,/Killer[A0] killed/V:Kill.01 and two people injured in four-vehicle car wreck on Interstate 35E in Lewisville, Texas/Corpse .
+SRL:Luis Aleman-Mendoza, 18, killed and two people/agent, entity causing damage [A0]  injured/V:injure.01 in four-vehicle car wreck on Interstate 35E in Lewisville, Texas/location [AM-LOC].
+Nom:Luis Aleman-Mendoza, 18, killed and two people injured in four-vehicle car wreck/Nom on Interstate 35E in Lewisville, Texas/location [AM-LOC] .
+
+Observation: SRL: Killer[A0]:Luis Aleman-Mendoza, 18  Predicate :Killed  Temporal[AM-TMP]: wreck Location[AM-LOC] :Loop 280 near White Settlement Road in Fort Worth, Texas
+Observation: SRL:agent, entity causing damage [A0]: two people Predicate :injured/V:injure.01 location [AM-LOC]: in four-vehicle car wreck on Interstate 35E in Lewisville, Texas.
+Observation: Nom: Causal: wreck
+
+
+Sentence:Jeremy Carpenter, 18, dies in single-car crash on Dottie Lynn Parkway in Ft. Worth, Texas .
+SRL:Jeremy Carpenter, 18,/the deceased [A1]  dies/V: die.01 in single-car crash on Dottie Lynn Parkway in Ft. Worth, Texas/location [AM-LOC].
+NOM:Jeremy Carpenter, 18, dies in single-car/entity crashed [A1]  crash/Nom on Dottie Lynn Parkway/location [AM-LOC]  in Ft. Worth, Texas .
+*********************************************************************************************************************************************
+Sentence:Five people injured in road-rage related crash at South Lancaster Road and Motor City Boulevard in Dallas, Texas .
+SRL:Five people/agent, entity causing damage [A0]  injured/V: injure.01  in road-rage related crash at South Lancaster Road and Motor City Boulevard in Dallas, Texas /location [AM-LOC].
+SRL:Five people injured in road-rage related//V: relate.01  crash/thing under consideration [A1]  at South Lancaster Road and Motor City Boulevard/location [AM-LOC]  in Dallas, Texas .
+NOM:Five people injured in road-rage/Nom related crash at South Lancaster Road and Motor City Boulevard in Dallas, Texas .
+NOM:Five people injured in road-rage related crash/Nom at South Lancaster Road and Motor City Boulevard in Dallas, Texas .
+Observation: SRL:agent, entity causing damage [A0]:Five  people  injured/V: injure.01 in  road-rage  related  crash  at  South  Lancaster  Road  and  Motor  City  Boulevard  in  Dallas  ,  Texas/location [AM-LOC]
+Observation: SRL:related/V: relate.01    crash /thing under consideration [A1]      at  South  Lancaster  Road  and  Motor  City  Boulevard   /location [AM-LOC] 
+Observation: Nom: road-rage/experiencer [A0]  rage /Nom    at  South  Lancaster  Road  and  Motor  City  Boulevard   /location [AM-LOC] 
+Obseravtion :Nom: crash/Nom   at  South  Lancaster  Road  and  Motor  City  Boulevard   /location [AM-LOC] 
+
+Senetence:Two men seriously hurt after car strikes multiple objects, nearly hits house on East Ledbetter Drive in Dallas, TX. 
+SRL: Two men/patient, entity experiencing hurt/damage [A1]  seriously hurt/V: hurt.01  after car strikes multiple objects, nearly hits house on East Ledbetter Drive in Dallas, TX/temporal [AM-TMP] .
+SRL: Two men seriously hurt after car strikes multiple objects/thing hitting / reaching [A0] , nearly/adverbial modification [AM-ADV]  hits/V: hit.02  house/thing hit [A1]  on East Ledbetter Drive in Dallas, TX/location [AM-LOC] . 
+Nom:Two men/employer [A1]  seriously hurt after car strikes/Nom multiple objects, nearly hits house on East Ledbetter Drive in Dallas, TX. 
+Nom:Two men seriously hurt after car strikes multiple objects/Nom A[0], nearly hits house on East Ledbetter Drive in Dallas, TX. 
+
+Observation:SRL:patient, entity experiencing hurt/damage [A1]/Two men V: hurt.01/hurt temporal [AM-TMP] /after car strikes multiple objects, nearly hits house on East Ledbetter Drive in Dallas, TX
+Observation:SRL:thing hitting / reaching [A0]/strikes multiple objects adverbial modification [AM-ADV] /nearly V: hit.02/hits  thing hit [A1]/house location [AM-LOC]/on East Ledbetter Drive in Dallas, TX/location 
+Observation:Nom: Nom/strike 	employer [A1]/Two men
+Observation:Nom: Nom/objects agent[A0]
+
+Sentence:Colby Bozo and Kristin Bozo killed after their car is hit by a speeding, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX .    
+SRL:Colby Bozo and Kristin Bozo/killer [A0] killed/V: kill.01	 after their car/thing hit [A1] is hit/V: hit.01 by a speeding, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX/temporal [AM-TMP] .    
+SRL:Colby Bozo and Kristin Bozo/agent, hitter - animate only! [A0] killed after their car/thing hit [A1] is hit by a speeding, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX /instrument, thing hit by or with [A2].    
+SRL:Colby Bozo and Kristin Bozo killed after their car is hit by a speeding, stolen/V: steal.01 vehicle/thing stolen [A1] allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX .    
+SRL:Colby Bozo and Kristin Bozo killed after their car is hit by a speeding, stolen vehicle/vehicle or path [A1] allegedly/adverbial modification [AM-ADV] driven/V: drive.01 by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX /driver [A0].    
+NOM:Colby Bozo and Kristin Bozo killed after their car/entity in motion [A1] is hit by a speeding/NOM, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX .    
+
+Observation:SRL:killer [A0] :Colby Bozo and Kristin Bozo V: kill.01 : killed  thing hit [A1]:after their car V: hit.01:is hit  temporal [AM-TMP]:by a speeding, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX
+Observation:SRL:agent, hitter - animate only! [A0]:Bozo and Kristin Bozo thing hit [A1]:their car V: hit.01:hit instrument, thing hit by or with [A2]:by a speeding, stolen vehicle allegedly driven by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX
+Observation:SRL:V: steal.01 :stolen thing stolen [A1]:STOLEN 
+Observation:SRL:vehicle or path [A1] :vehicle adverbial modification [AM-ADV]:allegedly V: drive.01 :driven  driver [A0]:by Jason Bernard Miller, 29, at Murphy Drive and Martin Drive in Bedford, TX driver [A0]. 
+Observation:NOM: NOM:speeding entity in motion [A1]:their car
+
+Sentence:Three seriously hurt after crash involving three vehicles on I-20 in Forney, TX 
+SRL:Three/patient, entity experiencing hurt/damage [A1] seriously/adverbial modification [AM-ADV] hurt/V: hurt.01	 after crash involving three vehicles on I-20/temporal [AM-TMP] in Forney, TX/location [AM-LOC] 
+SRL:Three seriously hurt after crash/group [A2] involving/V: involve.01 three vehicles on I-20/theme, thing being included into a group [A1] in Forney/location [AM-LOC], TX 
+NOM:Three seriously hurt after crash involving three vehicles on I-20/entity crashed [A1] in Forney, TX 
+Observation:SRL:patient, entity experiencing:Three damage [A1]:hurt adverbial modification [AM-ADV]:
+Observation:SRL:group [A2]:Three seriously hurt after crash V: involve.01:involving
+Observation:NOM:??
+
+Sentence:One person killed in rollover crash on Interstate 20 near South Cockrell Hill Road in Dallas, Texas .
+SRL:One person/killer [A0] killed/V: kill.01 in rollover crash/location [AM-LOC] on Interstate 20 near South Cockrell Hill Road in Dallas, Texas/location [AM-LOC] .
+NOM:One person killed in rollover/entity crashed [A1]	 crash/NOM on Interstate 20 near South Cockrell Hill Road in Dallas, Texas .
+Observation:SRL: killer [A0]:One person V: kill.01:killed location [AM-LOC]:in rollover crash location [AM-LOC]:on Interstate 20 near South Cockrell Hill Road in Dallas, Texas
+Observation:NOM:crash entity crashed [A1]:rollover
+
+Sentence:One man killed, other man injured after truck hits Department of Transportation sign off of I-35 in Dallas, TX .
+SRL:One man/killer [A0] killed/V: kill.01, other man/corpse [A1] injured after truck hits Department of Transportation sign off of I-35 in Dallas, TX .
+SRL:One man killed, other man/patient, entity experiencing hurt/damage [A1] injured/V: injure.01 after truck hits Department of Transportation sign off of I-35 in Dallas, TX .
+SRL:One man killed, other man injured after truck hits Department of Transportation/signer, agreer [A0] sign/V: sign.02 off of I-35 in Dallas, TX .
+Observation SRL:V: kill.01: killed  killer [A0]:One man corpse [A1]:other man
+Observation SRL:patient, entity experiencing hurt/damage [A1]:other man V: injure.01: injured
+Observation SRL:signer, agreer [A0]:Department of Transportation V: sign.02:sign
+
+Sentence:Guadalupe Palacios, 81, and London Pena, 6, killed in wreck on Loop 280 near White Settlement Road in Fort Worth, Texas .
+SRL:Guadalupe Palacios, 81, and London Pena, 6,/Killer[A0] killed/V:Kill.01 in wreck/temporal [AM-TMP] on Loop 280 near White Settlement Road in Fort Worth, Texas/location [AM-LOC].
+Nom:Guadalupe Palacios, 81, and London Pena, 6, killed in wreck/Nom on Loop 280 near White Settlement Road in Fort Worth, Texas/theme [A1].
+
+Observation: SRL: Receiver Agent [A0]  Predicate :Kill  Temporal[AM-TMP]: wreck Location[AM-LOC] :Loop 280 near White Settlement Road in Fort Worth, Texas
+Observation: Nom: Causal: wreck
+
+
+Sentence:Luis Aleman-Mendoza, 18, killed and two people injured in four-vehicle car wreck on Interstate 35E in Lewisville, Texas .
+SRL:Guadalupe Palacios, 81, and London Pena, 6,/Killer[A0] killed/V:Kill.01 in wreck/temporal [AM-TMP] on Loop 280 near White Settlement Road in Fort Worth, Texas/location [AM-LOC].
+Nom:Guadalupe Palacios, 81, and London Pena, 6, killed in wreck/Nom on Loop 280 near White Settlement Road in Fort Worth, Texas/theme [A1].
+
+Observation: SRL: Receiver Agent [A0]  Predicate :Killed  Temporal[AM-TMP]: wreck Location[AM-LOC] :Loop 280 near White Settlement Road in Fort Worth, Texas
+Observation: Nom: Causal: wreck
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Sentence:Police officer Evan Wincovitch has been arrested for suspicion of DUI after a single-vehicle accident on Randol Mill Road in Fort Worth, Texas . 
+SRL:Police officer Evan Wincovitch /Crminal [A1] has been arrested/V:Arrest for suspicion of DUI [AM-TMP] after a single-vehicle accident on Randol Mill Road in Fort Worth, Texas. 
+Nom:Police officer/Nom Evan Wincovitch has been arrested for suspicion of DUI after a single-vehicle accident on Randol Mill Road in Fort Worth, Texas .
+Nom:Police officer Evan Wincovitch has been arrested for suspicion of DUI/Suspicion[A1] after a single-vehicle/theme[A1] accident on Randol Mill Road in Fort Worth, Texas .
+Nom:Police officer Evan Wincovitch has been arrested for suspicion of DUI after a single-vehicle/theme[A1] accident on Randol Mill Road in Fort Worth, Texas .
+
+Observation: SRL: Criminal[A1]  Predicate :arrest  Temporal[AM-TMP]: after a single-vehicle accident on Randol Mill Road in Fort Worth, Texas.
+Observation: Nom: Job Holder: officer
+Observation: Nom: Suspicion: suspicion
+Observation: Nom: theme: single-vehicle
+
+
+Sentence:Ricky Joe Katcher, 51, dies after falling from an overpass after a car accident on Interstate 20 near Benbrook, Texas .
+SRL:Ricky Joe Katcher, 51, dies/V:Die [AM-TMP]after falling from an overpass after a car accident on Interstate 20 near Benbrook, Texas .
+SRL:Ricky Joe Katcher, 51, dies after falling/V:Fall /Ext[A2]from an overpass after a car accident on Interstate 20 near Benbrook, Texas .
+Nom:Ricky Joe Katcher, 51, dies after falling from an overpass after a car accident/Nom on Interstate 20 near Benbrook, Texas .
+Nom:Ricky Joe Katcher, 51, dies after falling from an overpass after a car/theme[A1] accident on Interstate 20 near Benbrook, Texas .
+
+Observation: SRL: the deceased[A1]  Predicate :die  Temporal[AM-TMP]: after falling from an overpass after a car accident on Interstate 20 near Benbrook, Texas .
+Observation: SRL: EXT, amount fallen[A2] Predicate :fall  
+Observation: Nom: accident: accident
+Observation: Nom: theme: a car
+
+Sentence:Jorge Cabrera seriously injured in crash following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas .
+SRL:Jorge Cabrera/Agent[A0] seriously injured/V:injure in crash/Location[AM-LOC] following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/temporal[AM-TMP] .
+SRL:Jorge Cabrera/Causal Agent[A0] seriously injured in crash following/V:follow high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/thing following,coming after [A1] .
+Nom:Jorge Cabrera/Entity Crashed[A1] seriously injured in crash following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas .
+Nom:Jorge Cabrera seriously injured in crash following high-speed police chase/Nom at Josey Lane and Haymeadow in Carrollton, Texas .
+
+Observation: SRL: Agent[A0]  Predicate :injure Location[AM-LOC]: in crash Temporal[AM-TMP]: following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/temporal[AM-TMP].
+Observation: SRL: Causal Agent[A0] Predicate : follow Thing following,coming after:follow high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas [A1]
+Observation: Nom: Entity Crashed: Jorge Cabrera
+Observation: Nom: follower: chase
+Observation: Nom: temporal [AM-TMP] : chase
+
+Sentence:Vanessa Gail Espinoza, 36, dead after wrong-way crash into I-30 median in Mesquite, Texas 
+SRL:Jorge Cabrera/Agent[A0] seriously injured/V:injure in crash/Location[AM-LOC] following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/temporal[AM-TMP] .
+SRL:Jorge Cabrera/Causal Agent[A0] seriously injured in crash following/V:follow high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/thing following,coming after [A1] .
+Nom:Jorge Cabrera/Entity Crashed[A1] seriously injured in crash following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas .
+Nom:Jorge Cabrera seriously injured in crash following high-speed police chase/Nom at Josey Lane and Haymeadow in Carrollton, Texas .
+
+Observation: SRL: Agent[A0]  Predicate :injure Location[AM-LOC]: in crash Temporal[AM-TMP]: following high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas/temporal[AM-TMP].
+Observation: SRL: Causal Agent[A0] Predicate : follow Thing following,coming after:follow high-speed police chase at Josey Lane and Haymeadow in Carrollton, Texas [A1]
+Observation: Nom: Entity Crashed: Jorge Cabrera
+Observation: Nom: follower: chase
+Observation: Nom: temporal [AM-TMP] : chase
+
+Sentence:Rosanely Frire, 30, killed after being struck by drunk driver at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas .
+SRL:Rosanely Frire, 30/Killer[A0], killed/V:kill after being struck by drunk driver/temporal[AM-TMP] at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas /location[AM-LOC].
+SRL:Rosanely Frire, 30/employer[A1], killed after being struck/V:strike by drunk driver/workers[A0] at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas/location[AM-LOC] .
+Nom:Rosanely Frire, 30, killed after being struck by drunk driver/Nom[A0] at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas .
+Nom:Rosanely Frire, 30, killed after being struck by drunk/Vehicle or Path[A1] driver/driver[A0] at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas .
+
+Observation: SRL: Killer[A0]  Predicate :kill Location[AM-LOC]: at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas Temporal[AM-TMP]: after being struck by drunk driver .
+Observation: SRL: Workers[A0] Predicate : strike Location[AM-LOC]:at the corner of Valwood Parkway and Webb Chapel Road in Fort Worth, Texas
+Observation: Nom: driver: driver
+
+Sentence:Sylvia Zazueta, 24, killed and several people injured when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas .
+SRL:Sylvia Zazueta, 24/killer[A0], killed/V:kill and several people injured when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas/corpse[A1] .
+SRL:Sylvia Zazueta, 24, killed and several people/agent,entity causing damage[A0] injured/V:injure when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas /temporal[AM-TMP].
+SRL:Sylvia Zazueta, 24, killed and several people injured when vehicle/thing in motion[A1] driven/V:drive by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas /driver[A0].
+Nom:Sylvia Zazueta, 24, killed and several people injured when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes/Nom into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas .
+Nom:Sylvia Zazueta, 24, killed and several people injured when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience/Nom store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas .
+
+Observation: SRL: Killer[A0]  Predicate :kill corpse: several people injured when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas .
+Observation: SRL: agent,entity causing damage[A0] Temporal[AM-TMP] : injure Location[AM-LOC]:when vehicle driven by alleged drunk driver Isaac Adams, 19, crashes into convenience store at Riverside Drive and East Lancaster Avenue In Fort Worth, Texas
+Observation: SRL: driver[A0]
+Observation: Nom: agent: Isaac Adams
+Observation: Nom: theme: convinience
+
+Sentence:10 vehicles and an 18-wheeler involved in crash on I-30 near South Barry Avenue in Dallas, Texas .
+SRL:10 vehicles/theme, thing being included into a group [A1] and an 18-wheeler/group[A2] involved/V:involve in crash on I-30 near South Barry Avenue in Dallas, Texas/location[AM-LOC] .
+Nom:10 vehicles and an 18-wheeler involved in crash/Nom on I-30 near South Barry Avenue in Dallas, Texas .
+Nom:10 vehicles and an 18-wheeler involved in crash on I-30/entity crashed[A1] near South Barry Avenue in Dallas, Texas .
+
+Observation: SRL: Predicate :involve Location[AM-LOC]: in crash on I-30 near South Barry Avenue in Dallas, Texas.
+Observation: Nom: entity crashed: on I-30
+
+
+Sentence:Mary Hernandez, 43, Clarissa Alexandra Banda-Castillo, 18, Veronica Gonzalez, 42, Steven Franklin, 45, and Claudia Barraza, 37, killed, and several injured in multiple-vehicle accident on Interstate 30 in Fort Worth, Texas .
+SRL:Mary Hernandez, 43, Clarissa Alexandra Banda-Castillo, 18, Veronica Gonzalez, 42, Steven Franklin, 45, and Claudia Barraza, 37/killer[A0], killed /V:kill, and several injured in multiple-vehicle accident on Interstate 30 in Fort Worth, Texas /corpse[A1].
+SRL:Mary Hernandez, 43, Clarissa Alexandra Banda-Castillo, 18, Veronica Gonzalez, 42, Steven Franklin, 45, and Claudia Barraza, 37, killed/agent, entity causing damage [A0], and several injured /V:injure in multiple-vehicle accident on Interstate 30 in Fort Worth, Texas/location[AM-LOC] .
+Nom:Mary Hernandez, 43, Clarissa Alexandra Banda-Castillo, 18, Veronica Gonzalez, 42, Steven Franklin, 45, and Claudia Barraza, 37, killed, and several injured in multiple-vehicle/NOM[A1] accident on Interstate 30 in Fort Worth, Texas .
+Nom:Mary Hernandez, 43, Clarissa Alexandra Banda-Castillo, 18, Veronica Gonzalez, 42, Steven Franklin, 45, and Claudia Barraza, 37, killed, and several injured in multiple-vehicle accident/NOM[A1] on Interstate 30 in Fort Worth, Texas .
+
+Observation: SRL: Killer[A0] Predicate :kill corpse: several injured in multiple-vehicle accident on Interstate 30 in Fort Worth, Texas.
+Observation: SRL: agent, entity causing damage [A0] Predicate :injure Location[AM-LOC]:in multiple-vehicle accident on Interstate 30 in Fort Worth, Texas .
+Observation: Nom: theme, thing being included in some group : multiple
+Observation: Nom: theme : accident
+
+
+Sentence:Dale Neibaur, 19, Holly Novak, 18, Kyle Mathers, 19, and Kenneth G. Frazier, 78, killed, and Hannah Galbaith, 18, and Kevin DiCicco, 19, injured in wrong-way crash between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas .
+SRL:Dale Neibaur, 19, Holly Novak, 18, Kyle Mathers, 19, and Kenneth G. Frazier, 78/killer[A0], killed/V:kill, and Hannah Galbaith, 18, and Kevin DiCicco, 19, injured in wrong-way crash between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas/corpse[A1] .
+SRL:Dale Neibaur, 19, Holly Novak, 18, Kyle Mathers, 19, and Kenneth G. Frazier, 78, killed, and Hannah Galbaith, 18, and Kevin DiCicco, 19/agent, entity causing damage [A0], injured/V:injure in wrong-way crash between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas/location [AM-LOC] .
+Nom:Dale Neibaur, 19, Holly Novak, 18, Kyle Mathers, 19, and Kenneth G. Frazier, 78, killed, and Hannah Galbaith, 18, and Kevin DiCicco, 19, injured in wrong-way crash/NOM between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas .
+Nom:Dale Neibaur, 19, Holly Novak, 18, Kyle Mathers, 19, and Kenneth G. Frazier, 78, killed, and Hannah Galbaith, 18, and Kevin DiCicco, 19, injured in wrong-way crash between passenger/NOM vehicle and tractor trailer on Interstate 30 near Greenville, Texas .
+
+Observation: SRL: Killer[A0] Predicate :kill corpse: Hannah Galbaith, 18, and Kevin DiCicco, 19, injured in wrong-way crash between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas .
+Observation: SRL: agent, entity causing damage [A0] Predicate :injure Location[AM-LOC]:in wrong-way crash between passenger vehicle and tractor trailer on Interstate 30 near Greenville, Texas .
+Observation: Nom: agent : crash
+Observation: Nom: rider : passenger
+
+Sentence:Christopher Covington, 35, killed in car crash into wall off of Denton Tap Road in Coppell, Texas. 
+SRL:Christopher Covington, 35/killer[A0], killed/V:kill in car crash/location[AM-LOC] into wall off of Denton Tap Road in Coppell, Texas .
+SRL:Christopher Covington, 35, killed in car crash into wall off of Denton Tap/V:tap Road/thing tapped[A1] in Coppell, Texas/location[AM-LOC] .
+Nom:Christopher Covington, 35, killed in car crash/NOM into wall off of Denton Tap Road in Coppell, Texas.
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC] : in car crash.
+Observation: SRL: Predicate :tap Location[AM-LOC] : in Coppell, Texas.
+Observation: Nom: entity crashed : car 
+
+Sentence:Two people injured in multi-vehicle car crash on I-35E in Carrollton, Texas  .
+SRL:Two people/patient, entity experiencing hurt or damage [A1] injured/V:injure in multi-vehicle car crash on I-35E in Carrollton, Texas/location [AM-LOC] .
+Nom:Two people injured in multi-vehicle car crash/NOM on I-35E in Carrollton, Texas .
+
+Observation: SRL: Predicate :injure Location[AM-LOC]: in multi-vehicle car crash on I-35E in Carrollton, Texas.
+Observation: Nom: entity crashed: car
+
+Sentence:Earl Cook, 72, killed in crash involving stalled vehicle on I-20 in Fort Worth, Texas .
+SRL:Earl Cook, 72/killer[A0], killed/V:kill in crash involving stalled vehicle on I-20 in Fort Worth, Texas/location[AM-LOC] .
+SRL:Earl Cook, 72/group [A2], killed in crash involving/V:involve stalled vehicle on I-20/theme, thing being included into a group [A1] in Fort Worth, Texas/location[AM-LOC] .
+SRL:Earl Cook, 72/staller [A0], killed in crash involving stalled/V:stall vehicle on I-20/temporal[AM-TMP] in Fort Worth, Texas/location[AM-LOC] .
+Nom:Earl Cook, 72, killed in crash/NOM involving stalled vehicle on I-20 in Fort Worth, Texas .
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC]: in Fort Worth, Texas.
+Observation: SRL: Predicate :involve Location[AM-LOC]: in Fort Worth, Texas.
+Observation: SRL: Predicate :stall Temporal[AM-TMP] : vehicle on I-20 Location[AM-LOC]: in Fort Worth, Texas.
+Observation: Nom: crash
+
+Sentence:Thomas Aring, 64, killed and two people injured in multi-vehicle crash at Farm to Market Road 423 and Main Street in Frisco, Texas .
+SRL:Thomas Aring, 64/killer[A0], killed/V:kill and two people injured in multi-vehicle crash at Farm to Market Road 423 and Main Street in Frisco, Texas/location[AM-LOC] .
+SRL:Thomas Aring, 64, killed and two people/agent, entity causing damage [A0] injured/V:injure in multi-vehicle crash/location [AM-LOC] at Farm/location [AM-LOC] to Market Road 423 and Main Street in Frisco, Texas/location [AM-LOC].
+Nom:Thomas Aring, 64, killed and two people injured in multi-vehicle crash/NOM at Farm to Market Road 423 and Main Street in Frisco, Texas.
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC]: iin Frisco, Texas.
+Observation: SRL: agent, entity causing damage [A0] Predicate :injure Location[AM-LOC]: in multi-vehicle crash Location[AM-LOC]:at Farm/location Location[AM-LOC]:in Frisco, Texas.
+Observation: SRL: Predicate :stall Temporal[AM-TMP] : vehicle on I-20 Location[AM-LOC]: in Fort Worth, Texas.
+Observation: Nom: entity crashed : multi-vehicle
+
+Sentence:Jeanmarie Kramer, 17, dies in head-on crash on Highway 67 in Johnson County, Texas   .
+SRL:Jeanmarie Kramer, 17/the deceased [A1], dies/V:die in head-on crash on Highway 67 in Johnson County, Texas/location [AM-LOC]  .
+Nom:Jeanmarie Kramer, 17, dies in head-on crash/NOM on Highway 67 in Johnson County, Texas  .
+
+Observation: SRL: Predicate die Location[AM-LOC]: in head-on crash on Highway 67 in Johnson County, Texas.
+Observation: Nom: crash
+
+Sentence:Two killed in car crash into Prairie Creek off of U.S. 175 service road in Dallas, Texas  .
+SRL:Two/killer[A0] killed/V:kill in car crash/location [AM-LOC] into Prairie Creek/corpse [A1] off of U.S. 175 service road in Dallas, Texas .
+Nom:Two killed in car crash /NOM[A1] into Prairie Creek off of U.S. 175 service road in Dallas, Texas .
+Nom:Two killed in car crash into Prairie Creek off of U.S. 175 service/NOM[A0] road in Dallas, Texas .
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC]: in Fort Worth, Texas.
+Observation: SRL: Predicate :involve Location[AM-LOC]: in car crash.
+Observation: Nom: entity crashed : car
+Observation: Nom: worker : U.S.
+
+
+
+Sentence:Jessica Moreno, Fidencio Moreno, Marcello Moreno, and Kevin Moreno killed in car crash with tractor trailer on Interstate 20 in Dallas, Texas .
+SRL:Jessica Moreno, Fidencio Moreno, Marcello Moreno, and Kevin Moreno/killer [A0] killed/V:kill in car crash with tractor trailer on Interstate 20 in Dallas, Texas/location [AM-LOC] .
+Nom:Jessica Moreno, Fidencio Moreno, Marcello Moreno, and Kevin Moreno killed in car crash/NOM[A1] with tractor trailer on Interstate 20 in Dallas, Texas .
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC]: in car crash with tractor trailer on Interstate 20 in Dallas, Texas.
+Observation: Nom: entity crashed : car
+
+Sentence:Luis Reyes, 18, and Andres Mendez, 16, killed in suspected street-racing crash on Regal Row in Dallas, Texas .
+SRL:Luis Reyes, 18, and Andres Mendez/killer [A0], 16, killed/V:kill in suspected street-racing crash on Regal Row in Dallas, Texas/location [AM-LOC] .
+SRL:Luis Reyes, 18, and Andres Mendez, 16, killed in suspected/V:suspect street-racing crash on Regal Row in Dallas, Texas/location [AM-LOC] .
+Nom:Luis Reyes, 18, and Andres Mendez, 16, killed in suspected street-racing crash/NOM on Regal Row in Dallas, Texas .
+
+Observation: SRL: killer[A0] Predicate :kill Location[AM-LOC]: in suspected street-racing crash on Regal Row in Dallas, Texas.
+Observation: SRL: Predicate :suspect Location[AM-LOC]: in Dallas, Texas.
+Observation: Nom: crash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
