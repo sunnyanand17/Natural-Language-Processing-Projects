@@ -1,4 +1,3 @@
-# Natural-Language-Processing-Projects
 Google Maps Route Safety Application
 -------------------------------------------------------------------------------------------------------------------------------------------
 A complete end-to-end NLP application for improving Google Map by creating an add-on which will help monitor the risks which might
